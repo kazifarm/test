@@ -1,0 +1,23 @@
+.overlay{
+    height: 100%;width: 100%;
+    position: absolute;background:rgba(0, 0, 0,0.4);
+    z-index: 3;
+}
+.slides-navigation .prev,
+.slides-navigation .next{
+    height: 47px;width: 47px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slides-navigation a.prev{
+    background-image: url(../img/icons/prev.png);
+    left: 20px;
+}
+.slides-navigation a.next {
+    background-image: url(../img/icons/next.png);
+    right: 20px;
+
+}
+.section{
+    padding: 100px 0;
+}
